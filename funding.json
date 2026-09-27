@@ -6,7 +6,7 @@
         "name": "Pierre Abbat",
         "email": "phma@bezitopo.org",
         "phone": "",
-        "description": "I'm a mathematician, surveyor, cryptographer, and software developer.",
+        "description": "I'm a mathematician, surveyor, cryptographer, and software developer. I usually get surveying jobs in the summer, but not the winter.",
         "webpageUrl": {
             "url": "https://phma.github.io/",
             "wellKnown": ""
@@ -21,14 +21,14 @@
         "description": "Bezitopo will be a CAD program designed for land surveying.",
         "webpageUrl": {
             "url": "http://bezitopo.org",
-            "wellKnown": ""             // Optional. If the above URL's hostname does not match the hostname of the funding.json manifest, this establishes provenance. Starts with https:// or http://. Max len 250.
+            "wellKnown": "http://bezitopo.org/.well-known/funding-manifest-urls"
         },
         "repositoryUrl": {
             "url": "https://github.com/phma/bezitopo",
-            "wellKnown": ""             // Optional. If the above URL's hostname does not match the hostname of the funding.json manifest, this establishes provenance. Starts with https:// or http://. Max len 250.
+            "wellKnown": "https://github.com/phma/bezitopo/blob/master/.well-known/funding-manifest-urls"
         },
         "licenses": [LGPL-3.0-or-later],
-        "tags": [graphics,land-surveying]
+        "tags": [graphics,land-surveying,cpp]
     }
     ],
 
@@ -53,11 +53,21 @@
         // Required. One or more funding and payment plans.
         "plans": [
         {
-            "guid": "monthly-enough",
+            "guid": "full-time2700",
             "status": "active",
-            "name": "Enough for me to live on for a month",
+            "name": "Full-time work on these projects (winter)",
             "description": "",
-            "amount": 2500,
+            "amount": 2700,
+            "currency": "USD",
+            "frequency": "monthly",
+            "channels": [zelle40190,first-citizens40190]
+        }
+        {
+            "guid": "part-time1800",
+            "status": "active",
+            "name": "Part-time work on these projects (summer)",
+            "description": "",
+            "amount": 1800,
             "currency": "USD",
             "frequency": "monthly",
             "channels": [zelle40190,first-citizens40190]
