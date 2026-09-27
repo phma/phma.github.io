@@ -30,6 +30,21 @@
         "licenses": [LGPL-3.0-or-later],
         "tags": [graphics,land-surveying,cpp]
     }
+    {
+        "guid": "perfecttin",
+        "name": "PerfectTIN",
+        "description": "PerfectTIN takes a clean point cloud of terrain, computes a surface (TIN, triangulated irregular network), and draws contours.\n\nPerfectTIN is almost ready for releasing version 1.0, but needs beta testers.",
+        "webpageUrl": {
+            "url": "http://bezitopo.org/perfecttin",
+            "wellKnown": "http://bezitopo.org/.well-known/funding-manifest-urls"
+        },
+        "repositoryUrl": {
+            "url": "https://github.com/phma/perfecttin",
+            "wellKnown": "https://github.com/phma/perfecttin/blob/master/.well-known/funding-manifest-urls"
+        },
+        "licenses": [LGPL-3.0-or-later],
+        "tags": [graphics,land-surveying,point-cloud,cpp]
+    }
     ],
 
     // Required.
