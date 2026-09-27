@@ -28,7 +28,7 @@
             "wellKnown": "https://github.com/phma/bezitopo/blob/master/.well-known/funding-manifest-urls"
         },
         "licenses": [LGPL-3.0-or-later],
-        "tags": [graphics,land-surveying,cpp]
+        "tags": [graphics,land-surveying]
     }
     {
         "guid": "perfecttin",
@@ -43,7 +43,22 @@
             "wellKnown": "https://github.com/phma/perfecttin/blob/master/.well-known/funding-manifest-urls"
         },
         "licenses": [LGPL-3.0-or-later],
-        "tags": [graphics,land-surveying,point-cloud,cpp]
+        "tags": [graphics,land-surveying,point-cloud]
+    }
+    {
+        "guid": "wolkenbase",
+        "name": "Wolkenbase",
+        "description": "Wolkenbase classifies a point cloud into ground and non-ground, using the lower sheet of a hyperboloid.",
+        "webpageUrl": {
+            "url": "http://bezitopo.org/wolkenbase",
+            "wellKnown": "http://bezitopo.org/.well-known/funding-manifest-urls"
+        },
+        "repositoryUrl": {
+            "url": "https://github.com/phma/wolkenbase",
+            "wellKnown": "https://github.com/phma/wolkenbase/blob/master/.well-known/funding-manifest-urls"
+        },
+        "licenses": [GPL-3.0-or-later],
+        "tags": [graphics,land-surveying,point-cloud]
     }
     ],
 
