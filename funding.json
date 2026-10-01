@@ -59,6 +59,51 @@
         "licenses": ["GPL-3.0-or-later"],
         "tags": ["graphics","land-surveying","point-cloud"]
     }
+    {
+        "guid": "wring-twistree",
+        "name": "Wring and Twistree",
+        "description": "Wring is a whole-message cipher; Twistree is a keyed hash function with a double-tree construction. Both use the same key schedule and three same of the four round steps.",
+        "webpageUrl": {
+            "url": "https://github.com/phma/WringTwistree.jl",
+            "wellKnown": "https://github.com/phma/WringTwistree.jl/blob/master/.well-known/funding-manifest-urls"
+        },
+        "repositoryUrl": {
+            "url": "https://github.com/phma/wring-twistree",
+            "wellKnown": "https://github.com/phma/wring-twistree/blob/master/.well-known/funding-manifest-urls"
+        },
+        "licenses": ["BSD-3-Clause"],
+        "tags": ["cryptography","cipher","hash-function","julia","rust","haskell"]
+    }
+    {
+        "guid": "daphne",
+        "name": "Daphne",
+        "description": "Daphne is a self-synchronizing byte stream cipher which recovers from deleted or inserted ciphertext bytes as well as from corrupted bytes.",
+        "webpageUrl": {
+            "url": "https://github.com/phma/DaphneCipher.jl",
+            "wellKnown": "https://github.com/phma/DaphneCipher.jl/blob/master/.well-known/funding-manifest-urls"
+        },
+        "repositoryUrl": {
+            "url": "https://github.com/phma/daphne",
+            "wellKnown": "https://github.com/phma/daphne/blob/master/.well-known/funding-manifest-urls"
+        },
+        "licenses": ["BSD-3-Clause"],
+        "tags": ["cryptography","cipher","stream-cipher","julia","rust","haskell"]
+    }
+    {
+        "guid": "kaftor",
+        "name": "Kaftor",
+        "description": "Kaftor is a keyed affine transform, a kind of whole-message cipher which may be useful in secure multiparty computation.",
+        "webpageUrl": {
+            "url": "https://github.com/phma/Kaftor.jl",
+            "wellKnown": "https://github.com/phma/Kaftor.jl/blob/master/.well-known/funding-manifest-urls"
+        },
+        "repositoryUrl": {
+            "url": "https://github.com/phma/Kaftor.jl",
+            "wellKnown": "https://github.com/phma/Kaftor.jl/blob/master/.well-known/funding-manifest-urls"
+        },
+        "licenses": ["MIT"],
+        "tags": ["cryptography","cipher","julia","rust"]
+    }
     ],
 
     "funding": {
