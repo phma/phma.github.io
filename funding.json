@@ -24,7 +24,7 @@
         },
         "repositoryUrl": {
             "url": "https://github.com/phma/bezitopo",
-            "wellKnown": "https://github.com/phma/bezitopo/blob/master/.well-known/funding-manifest-urls"
+            "wellKnown": "https://github.com/phma/bezitopo/blob/master/.well-known/funding-manifest-urls?raw=true"
         },
         "licenses": ["LGPL-3.0-or-later"],
         "tags": ["graphics","land-surveying"]
@@ -54,52 +54,52 @@
         },
         "repositoryUrl": {
             "url": "https://github.com/phma/wolkenbase",
-            "wellKnown": "https://github.com/phma/wolkenbase/blob/master/.well-known/funding-manifest-urls"
+            "wellKnown": "https://github.com/phma/wolkenbase/blob/master/.well-known/funding-manifest-urls?raw=true"
         },
         "licenses": ["GPL-3.0-or-later"],
         "tags": ["graphics","land-surveying","point-cloud"]
-    }
+    },
     {
         "guid": "wring-twistree",
         "name": "Wring and Twistree",
         "description": "Wring is a whole-message cipher; Twistree is a keyed hash function with a double-tree construction. Both use the same key schedule and three same of the four round steps.",
         "webpageUrl": {
             "url": "https://github.com/phma/WringTwistree.jl",
-            "wellKnown": "https://github.com/phma/WringTwistree.jl/blob/master/.well-known/funding-manifest-urls"
+            "wellKnown": "https://github.com/phma/WringTwistree.jl/blob/master/.well-known/funding-manifest-urls?raw=true"
         },
         "repositoryUrl": {
             "url": "https://github.com/phma/wring-twistree",
-            "wellKnown": "https://github.com/phma/wring-twistree/blob/master/.well-known/funding-manifest-urls"
+            "wellKnown": "https://github.com/phma/wring-twistree/blob/master/.well-known/funding-manifest-urls?raw=true"
         },
         "licenses": ["BSD-3-Clause"],
         "tags": ["cryptography","cipher","hash-function","julia","rust","haskell"]
-    }
+    },
     {
         "guid": "daphne",
         "name": "Daphne",
         "description": "Daphne is a self-synchronizing byte stream cipher which recovers from deleted or inserted ciphertext bytes as well as from corrupted bytes.",
         "webpageUrl": {
             "url": "https://github.com/phma/DaphneCipher.jl",
-            "wellKnown": "https://github.com/phma/DaphneCipher.jl/blob/master/.well-known/funding-manifest-urls"
+            "wellKnown": "https://github.com/phma/DaphneCipher.jl/blob/master/.well-known/funding-manifest-urls?raw=true"
         },
         "repositoryUrl": {
             "url": "https://github.com/phma/daphne",
-            "wellKnown": "https://github.com/phma/daphne/blob/master/.well-known/funding-manifest-urls"
+            "wellKnown": "https://github.com/phma/daphne/blob/master/.well-known/funding-manifest-urls?raw=true"
         },
         "licenses": ["BSD-3-Clause"],
         "tags": ["cryptography","cipher","stream-cipher","julia","rust","haskell"]
-    }
+    },
     {
         "guid": "kaftor",
         "name": "Kaftor",
         "description": "Kaftor is a keyed affine transform, a kind of whole-message cipher which may be useful in secure multiparty computation.",
         "webpageUrl": {
             "url": "https://github.com/phma/Kaftor.jl",
-            "wellKnown": "https://github.com/phma/Kaftor.jl/blob/master/.well-known/funding-manifest-urls"
+            "wellKnown": "https://github.com/phma/Kaftor.jl/blob/master/.well-known/funding-manifest-urls?raw=true"
         },
         "repositoryUrl": {
             "url": "https://github.com/phma/Kaftor.jl",
-            "wellKnown": "https://github.com/phma/Kaftor.jl/blob/master/.well-known/funding-manifest-urls"
+            "wellKnown": "https://github.com/phma/Kaftor.jl/blob/master/.well-known/funding-manifest-urls?raw=true"
         },
         "licenses": ["MIT"],
         "tags": ["cryptography","cipher","julia","rust"]
@@ -126,8 +126,8 @@
         {
             "guid": "full-time2700",
             "status": "active",
-            "name": "Full-time work on these projects (winter)",
-            "description": "",
+            "name": "Full-time",
+            "description": "Full-time work on these projects (winter)",
             "amount": 2700,
             "currency": "USD",
             "frequency": "monthly",
@@ -136,19 +136,29 @@
         {
             "guid": "part-time1800",
             "status": "active",
-            "name": "Part-time work on these projects (summer)",
-            "description": "",
+            "name": "Part-time",
+            "description": "Part-time work on these projects (summer)",
             "amount": 1800,
             "currency": "USD",
             "frequency": "monthly",
             "channels": ["zelle40190","first-citizens40190"]
         },
         {
-            "guid": "week-food",
+            "guid": "isp130",
             "status": "active",
-            "name": "A week of groceries",
-            "description": "",
-            "amount": 140,
+            "name": "Internet",
+            "description": "Monthly Internet bill",
+            "amount": 130,
+            "currency": "USD",
+            "frequency": "monthly",
+            "channels": ["zelle40190","first-citizens40190"]
+        },
+        {
+            "guid": "vps21",
+            "status": "active",
+            "name": "Hosting",
+            "description": "Monthly hosting bill",
+            "amount": 21,
             "currency": "USD",
             "frequency": "monthly",
             "channels": ["zelle40190","first-citizens40190"]
