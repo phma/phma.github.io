@@ -103,6 +103,21 @@
         },
         "licenses": ["MIT"],
         "tags": ["cryptography","cipher","julia","rust"]
+    },
+    {
+        "guid": "mirasol",
+        "name": "Mirasol",
+        "description": "Mirasol is a program for teaching children numbers and sequences of numbers.",
+        "webpageUrl": {
+            "url": "hhttps://phma.github.io/mirasol/",
+            "wellKnown": ""
+        },
+        "repositoryUrl": {
+            "url": "https://github.com/phma/mirasol",
+            "wellKnown": "https://github.com/phma/mirasol/blob/master/.well-known/funding-manifest-urls?raw=true"
+        },
+        "licenses": ["GPL-3.0-or-later"],
+        "tags": ["education"]
     }
     ],
 
