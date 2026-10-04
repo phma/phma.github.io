@@ -109,7 +109,7 @@
         "name": "Mirasol",
         "description": "Mirasol is a program for teaching children numbers and sequences of numbers.",
         "webpageUrl": {
-            "url": "hhttps://phma.github.io/mirasol/",
+            "url": "https://phma.github.io/mirasol/",
             "wellKnown": ""
         },
         "repositoryUrl": {
@@ -118,6 +118,21 @@
         },
         "licenses": ["GPL-3.0-or-later"],
         "tags": ["education"]
+    },
+    {
+        "guid": "quadlods",
+        "name": "Quadlods",
+        "description": "Quadlods (quadratic low-discrepancy sequences) is a C++ library which computes low-discrepancy sequences in up to 6542 dimensions (the number of primes less than 65536). I originally did Richtmyer sequences using quadratic irrationals, found that they don't work well even when scrambled, and added Halton sequences.",
+        "webpageUrl": {
+            "url": "https://phma.github.io/quadlods/",
+            "wellKnown": ""
+        },
+        "repositoryUrl": {
+            "url": "https://github.com/phma/quadlods",
+            "wellKnown": "https://github.com/phma/quadlods/blob/master/.well-known/funding-manifest-urls?raw=true"
+        },
+        "licenses": ["LGPL-3.0-or-later"],
+        "tags": ["simulation"]
     }
     ],
 
