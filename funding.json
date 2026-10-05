@@ -105,6 +105,36 @@
         "tags": ["cryptography","cipher","julia","rust"]
     },
     {
+        "guid": "mumzel",
+        "name": "Mumzel Code",
+        "description": "Mumzel encodes 32-bit words in 36 bits, half of which are ones, with at most 11-bit-long runs. Its code rate (8/9) is greater than that of 8b/10b (4/5), and unlike 64b/66b is guaranteed to be a balanced code.",
+        "webpageUrl": {
+            "url": "https://github.com/phma/MumzelCode.jl",
+            "wellKnown": "https://github.com/phma/MumzelCode.jl/blob/master/.well-known/funding-manifest-urls?raw=true"
+        },
+        "repositoryUrl": {
+            "url": "https://github.com/phma/MumzelCode.jl",
+            "wellKnown": "https://github.com/phma/MumzelCode.jl/blob/master/.well-known/funding-manifest-urls?raw=true"
+        },
+        "licenses": ["GPL-3.0-or-later"],
+        "tags": ["code","line-code"]
+    },
+    {
+        "guid": "propolis",
+        "name": "Propolis Code",
+        "description": "Propolis is a hexagonal 2-dimensional code which looks prettier and may achieve higher density than QR code when printed. It can also be serialized and used for outer space communication; framing can be recovered even if the start and end of the message are obliterated.",
+        "webpageUrl": {
+            "url": "https://github.com/phma/propolis",
+            "wellKnown": "https://github.com/phma/propolis/blob/master/.well-known/funding-manifest-urls?raw=true"
+        },
+        "repositoryUrl": {
+            "url": "https://github.com/phma/propolis",
+            "wellKnown": "https://github.com/phma/propolis/blob/master/.well-known/funding-manifest-urls?raw=true"
+        },
+        "licenses": ["LGPL-3.0-or-later"],
+        "tags": ["code","2d-code","cpp"]
+    },
+    {
         "guid": "mirasol",
         "name": "Mirasol",
         "description": "Mirasol is a program for teaching children numbers and sequences of numbers.",
